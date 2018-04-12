@@ -1,0 +1,153 @@
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2a6bcc;
+}
+
+footer .wrapper {
+    padding: 48px 0 0 0;
+    text-align: center;
+}
+
+footer .wrapper .title {
+    
+    
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 200;
+}
+
+footer .wrapper .contactMessage {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 200;
+}
+
+footer .wrapper .contactEmail {
+   
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
+footer .wrapper .copyright {
+    
+    padding-top: 40px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
+footer {
+    background-color: #039BD8;}
+  footer .wrapper {
+    padding: 48px 0 48px;  
+    text-align: center;}
+ 
+  footer .wrapper .contact-message {
+    text-align: center;
+    color: white;
+    font-family: "Corbel", sans-serif;
+    font-size: 28px;
+    margin: 0; }
+    footer .wrapper .contact-email {
+      font-family: "Corbel",sans-serif;
+      font-size: 28px;
+      text-decoration: none;
+      color: white; }
+    footer .wrapper .contact-message::before {
+      display: block;
+      content: "";
+      background: #14649C;
+      margin: 36px auto 36px auto;
+      height: 1px;
+      width: 20%; }
+      footer .wrapper .findUsVia .socialNetworks {
+        padding: 48px 0;
+        list-style-type: none;
+        margin: 0 auto;
+        width: 30%; }
+        footer .wrapper .findUsVia .socialNetworks a {
+          position: relative;
+          margin: 0 14px;
+          display: inline-block;
+          background: white;
+          color: #039BD8;
+          text-decoration: none;
+          border-radius: 100%;
+          font-size: 30px;
+          height: 50px;
+          width: 50px;
+          -moz-transition: all ease .8s;
+          -webkit-transition: all ease .8s;
+          -ms-transition: all ease .8s;
+          transition: all ease .8s;
+          }
+
+          footer .wrapper .find-us-via .social-networks a i.icon {
+            font-size: 40px;
+            position: absolute;
+            top: 35%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+            height: 50%;
+            display: block; }
+          
+            footer .wrapper .find-us-via .social-networks a i.ion-social-facebook {
+              color:black;
+            }
+            
+            
+        
+            footer .wrapper .find-us-via .social-networks a:visited, #contact-section .social-networks a:active {
+              text-decoration: none; }
+            footer .wrapper .find-us-via .social-networks a:hover {
+            box-shadow: inset 100px 0 0 0 #14649C;
+            color: #eeeeee; }
+  footer .wrapper .copyright {
+    font-family: "Corbel", sans-serif;
+    font-size: 12px;
+    color: white;
+  }
+
+ 
+
+@media screen and (max-width: 1600px) {
+  footer .wrapper .find-us-via .social-networks {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer .wrapper .find-us-via .social-networks a {
+    height: 50px;
+    width: 50px; }
+    footer .wrapper .find-us-via .social-networks a i.icon {
+      font-size: 40px;
+      top: 45%;
+      left: 55%;}
+}
+@media screen and (max-width: 640px) {
+  footer .wrapper .title {
+    font-size: 40px;
+  }
+  footer .wrapper .contact-message {
+    font-size: 24px;
+  }
+  footer .wrapper .contact-email {
+    font-size: 24px;}
+  footer .wrapper .copyright {
+    font-size: 12px;
+  }
+}
+

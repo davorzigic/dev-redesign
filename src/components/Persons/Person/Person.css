@@ -1,0 +1,45 @@
+.Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+.picture {
+  width:300px;
+
+}
+
+@media (min-width: 500px) {
+  .Person {
+    width: 50%;
+  }
+}
+
+.table {
+  
+  margin: 0 auto;
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.th {
+   vertical-align: middle;
+  text-align: center;
+}
+
+.td {
+  vertical-align: middle;
+  text-align: center;
+  min-width: 450px;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
