@@ -1,7 +1,7 @@
 import React, { Components } from 'react';
 import RightArrow from './RightArrow';
 import LeftArrow from './LeftArrow';
-import imgLunar from 'C:/my-app/src/assets/images/slider/okruzenje.jpg';
+import imgLunar from '../../assets/images/slider/okruzenje.jpg';
 
 const SliderThree = (props) => {
 

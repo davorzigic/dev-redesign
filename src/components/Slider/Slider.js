@@ -9,7 +9,7 @@ import SlideTwo from './AnotherSlide';
 // import imgRome from 'C:/my-app/src/components/Slider/DavorRome.jpg';
 // import imgEgypt from 'C:/my-app/src/components/Slider/DavorEgipat.jpg';
 // import imgLunar from 'C:/my-app/src/components/Slider/lunar.jpg';
-import imgT from 'C:/my-app/src/assets/images/members/test.jpg';
+import imgT from '../../assets/images/members/test.jpg';
 import styles from './style.scss';
 require('./style.scss');
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import imgBck from 'C:/my-app/src/components/Slider/DavorRome.jpg';
+import imgBck from '../../assets/images/DavorRome.jpg';
 
 const Slide = (props) => {
    

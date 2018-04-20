@@ -11,7 +11,7 @@
 // export default LeftArrow;
 
 import React from 'react'
-import leftAr from 'C:/my-app/src/assets/images/slider-left-arrow.svg';
+import leftAr from '../../assets/images/slider-left-arrow.svg';
 
 
 // const LeftArrow = ({ prevSlide }) => {

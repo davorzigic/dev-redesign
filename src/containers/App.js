@@ -10,9 +10,9 @@ import Vision from '../components/Vision/Vision';
 import TextAnimation from '../components/Text Animation/TextAnimation';
 import Typist from 'react-reveal-text';
 import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
-import Davor from 'C:/my-app/src/assets/images/members/test.jpg';
-import Nikola from 'C:/my-app/src/assets/images/members/nikolasiker.jpg';
-import Sasa from 'C:/my-app/src/assets/images/members/sasadobrilovic.jpg';
+import Davor from '../assets/images/members/test.jpg';
+import Nikola from '../assets/images/members/nikolasiker.jpg';
+import Sasa from '../assets/images/members/sasadobrilovic.jpg';
 
 
 

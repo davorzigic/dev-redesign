@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from 'C:/my-app/src/assets/images/logoDevWhite.png';
+import logo from '../../assets/images/logoDevWhite.png';
 import styles from './style.css';
 require('./style.css');
 

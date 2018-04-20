@@ -1,7 +1,7 @@
 import React, { Components } from 'react';
 import RightArrow from './RightArrow';
 import LeftArrow from './LeftArrow';
-import imgRome from 'C:/my-app/src/assets/images/slider/upornost.jpg';
+import imgRome from '../../assets/images/slider/upornost.jpg';
 
 const SliderOne = (props) => {
 

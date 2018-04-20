@@ -1,5 +1,5 @@
 import React from 'react'
-import rightAr from 'C:/my-app/src/assets/images/slider-right-arrow.svg';
+import rightAr from '../../assets/images/slider-right-arrow.svg';
 import stylesCss from './style.scss';
 require('./style.scss');
 
