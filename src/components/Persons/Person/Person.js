@@ -20,12 +20,12 @@ const person = (props) => {
 							<img src={props.picture} alt='something' class={classes.picture} />							
 						</th>
 						<td className={classes.td}>
-							<p>I am {props.name} and I am {props.age} years old!</p>
+							<p className={classes.info}>I am {props.name} and I am {props.age} years old!</p>
 						</td>
 					</tr>
 					<tr>
 						<td className={classes.td}>
-							<p>{props.qoute}</p>
+							<p className={classes.info}>{props.qoute}</p>
 						</td>
 					</tr>
 				</tbody>

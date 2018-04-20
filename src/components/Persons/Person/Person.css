@@ -5,6 +5,7 @@
     box-shadow: 0 2px 3px #ccc;
     padding: 16px;
     text-align: center;
+    background-color:#2a6bcc;
 }
 
 .picture {
@@ -42,4 +43,8 @@
 th, td {
   padding: 5px;
   text-align: left;    
+}
+
+.info {
+  color:white;
 }
