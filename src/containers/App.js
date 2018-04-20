@@ -21,9 +21,9 @@ class App extends Component {
   
   state = {
     persons: [
-      {id: 'asfa1', name : 'Davor', age : 29, picture: Davor, qoute: 'Improvise. Overcome. Adapt.' },
-      {id: 'vasdf1', name : 'Nikola', age : 22, picture: Nikola, qoute: '“Don’t Let Yesterday Take Up Too Much Of Today.” -Will Rogers'},
-      {id: 'asdf11', name : 'Sale', age : 22, picture: Sasa, qoute: ' “Today’s Accomplishments Were Yesterday’s Impossibilities.” – Robert H. Schuller'}
+      {id: 'asfa1', name : 'Davor', lastName: 'Žigić', position: 'Student', age : 29, picture: Davor, qoute: 'Improvise. Overcome. Adapt.' },
+      {id: 'vasdf1', name : 'Nikola', lastName: 'Siker', position: 'Team Lead', age : 22, picture: Nikola, qoute: '“Don’t Let Yesterday Take Up Too Much Of Today.” -Will Rogers'},
+      {id: 'asdf11', name : 'Sale', lastName: 'Dobrilović', position: 'Student', age : 22, picture: Sasa, qoute: ' “Today’s Accomplishments Were Yesterday’s Impossibilities.” – Robert H. Schuller'}
     ],
     otherState: 'some other value',
     showPersons: false

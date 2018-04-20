@@ -15,8 +15,11 @@ export default class Header extends Component {
 
 
 	}
+	
 
 	render() {
+
+
 
 		let navigation = {
 		// 	-webkit-box-flex: 0;
@@ -34,8 +37,8 @@ export default class Header extends Component {
 					<a href="/" className={styles.navigationLogo}> <img className={styles.logo} src={logo} alt="webpack logo" /></a>
 					<nav className={styles.navigationLinks}>
 						<a href="" className={styles.navigationLink}>Vizija</a>
-						<a href="" className={styles.navigationLink}>Tim</a>
-						<a href="" className={styles.navigationLink}>Kontakt</a>
+						<a href="#team" className={styles.navigationLink}>Tim</a>
+						<a href="#contact-section" className={styles.navigationLink}>Kontakt</a>
 					</nav>
 				</div>
 			</header>

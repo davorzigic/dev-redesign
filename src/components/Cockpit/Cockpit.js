@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Cockpit.css';
+import team from '../../assets/images/team.png';
 
 const cockpit = (props) => {
 
@@ -18,15 +19,19 @@ const cockpit = (props) => {
 
 
 	return (
-		<div className={classes.Cockpit}>
-			<div className={classes.title}>
-				<h1>Meet our students:</h1>
-			</div>
-			<br/>
-			<div className={classes.center}>
-				<button
-					className={btnClass}
-					onClick={props.clicked}>Click here</button>
+		<div id="team">
+			<div className={classes.Cockpit}>
+				<div className={classes.title}>
+					<h1>Upoznajte naš tim:</h1>
+				</div>
+				<br />
+				<div className={classes.center}>
+					{/* <input type="image" src={team} border="0" alt="Submit" onClick={props.clicked} /> */}
+					<button
+						
+						onClick={props.clicked}
+						>Klik klik</button>
+				</div>
 			</div>
 		</div>
 	);

@@ -10,9 +10,7 @@ const person = (props) => {
 
 
 	return (
-		<div className={classes.Person}>
-
-
+		<div className={classes.Person} onMouseOver={classes.something}>
 			<table className={classes.table}>
 			<tbody>
 					<tr>
@@ -20,7 +18,8 @@ const person = (props) => {
 							<img src={props.picture} alt='something' class={classes.picture} />							
 						</th>
 						<td className={classes.td}>
-							<p className={classes.info}>I am {props.name} and I am {props.age} years old!</p>
+							<h1 className={classes.title}>{props.name} {props.lastName}</h1>
+							<p className={classes.position}>{props.position}</p>
 						</td>
 					</tr>
 					<tr>

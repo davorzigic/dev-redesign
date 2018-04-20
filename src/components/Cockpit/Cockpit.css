@@ -26,20 +26,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
   }
   
   .Cockpit button {
-    border: 1px solid blue;
-    padding: 16px;
-    background-color: green;
+    background-color: #2a6bcc;
+    border-color: transparent;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
     font: inherit;
+    color:white;
+    padding: 16px;
   }
-  
-  .Cockpit button:hover {
-    background-color: lightgreen;
-    color: black;
+
+  button:hover{
+    background-color: #b30000;
+    color:white;
     cursor: pointer;
   }
+  
+ 
   
   .Cockpit button.Red {
     background-color: red;
@@ -50,3 +57,54 @@
     font: black;
   }
   
+  /* Grow */
+.grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.grow:hover,
+.grow:focus,
+.grow:active {
+  transform: scale(1.1);
+}
+
+/* Pop */
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  background-color: #b30000;
+}
+.pop:hover, .pop:focus, .pop:active {
+  -webkit-animation-name: pop;
+  animation-name: pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  background-color: #b30000;
+}
+
